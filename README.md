@@ -18,6 +18,10 @@ npm i react-aspect-ratio-img
 ## Components
 - AspectRatioImg
 
+  aspect ratio placeholder with `<img>`, `no IE support`
+
+- AspectRatioImgLegacy
+
   aspect ratio placeholder with `<img>`
 
 - SquareImg
@@ -33,7 +37,8 @@ require('react-aspect-ratio-img/css/style.css')
 
   <uc.AspectRatioImg {...props} />
   <uc.SquareImg {...props} />
-
+```
+```
 // only import specific component
 const AspectRatioImg = require('react-aspect-ratio-img/lib/components/AspectRatioImg')
 require('react-aspect-ratio-img/css/components/AspectRatioImg/style.css')
@@ -49,7 +54,8 @@ import 'react-aspect-ratio-img/css/style.css'
 
   <AspectRatioImg {...props} />
   <SquareImg {...props} />
-
+```
+```
 // only import specific component
 import AspectRatioImg from 'react-aspect-ratio-img/es/components/AspectRatioImg'
 import 'react-aspect-ratio-img/css/components/AspectRatio/style.css'
