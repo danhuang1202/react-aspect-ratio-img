@@ -1,11 +1,7 @@
 # react-aspect-ratio-img
-### [![Build Status](https://travis-ci.org/danhuang1202/react-aspect-ratio-img.svg?branch=master)](https://travis-ci.org/danhuang1202/react-aspect-ratio-img) [![codecov](https://codecov.io/gh/danhuang1202/react-aspect-ratio-img/branch/master/graph/badge.svg)](https://codecov.io/gh/danhuang1202/react-aspect-ratio-img) [![js-standard-style][standard-image]][standard-url] [![code style: prettier][prettier-image]][prettier-url]
-[status-image]: https://screwdriver.ouroath.com/pipelines/1011642/badge
-[status-url]: https://screwdriver.ouroath.com/pipelines/1011642
-[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
-[standard-url]: http://standardjs.com
-[prettier-image]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
-[prettier-url]: https://github.com/prettier/prettier
+[![Build Status](https://travis-ci.org/danhuang1202/react-aspect-ratio-img.svg?branch=master)](https://travis-ci.org/danhuang1202/react-aspect-ratio-img) 
+[![codecov](https://codecov.io/gh/danhuang1202/react-aspect-ratio-img/branch/master/graph/badge.svg)](https://codecov.io/gh/danhuang1202/react-aspect-ratio-img)
+[![NPM version](https://img.shields.io/npm/v/react-aspect-ratio-img.svg)](https://www.npmjs.com/package/react-aspect-ratio-img)
 
 for more information, please see: <a href="https://danhuang1202.github.io/react-aspect-ratio-img/">Document</a>
 
