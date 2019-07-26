@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[snapshot] AspectRatioImgLegacy AspectRatioImgLegacy 1`] = `
+<div
+  className="AspectRatioFenceLegacy_wrap_ZYFye"
+>
+  <div
+    className="AspectRatioFenceLegacy_container_3VjLm"
+    style={
+      Object {
+        "paddingBottom": "56.25%",
+      }
+    }
+  >
+    <img
+      alt="AspectRatioImgLegacy"
+      className="AspectRatioImgLegacy_img_1d-Cg"
+      src="aspect-ratio-640w.jpg"
+      srcSet="
+        aspect-ratio-320w.jpg,
+        aspect-ratio-480w.jpg 1.5x,
+        aspect-ratio-640w.jpg 2x"
+    />
+  </div>
+</div>
+`;
+
+exports[`[snapshot] AspectRatioImgLegacy AspectRatioImgLegacy with outerElementType and innerElementType 1`] = `
+<ul
+  className="AspectRatioFenceLegacy_wrap_ZYFye"
+>
+  <li
+    className="AspectRatioFenceLegacy_container_3VjLm"
+    style={
+      Object {
+        "paddingBottom": "56.25%",
+      }
+    }
+  >
+    <img
+      alt="AspectRatioImgLegacy"
+      className="AspectRatioImgLegacy_img_1d-Cg"
+      src="aspect-ratio-640w.jpg"
+      srcSet="
+        aspect-ratio-320w.jpg,
+        aspect-ratio-480w.jpg 1.5x,
+        aspect-ratio-640w.jpg 2x"
+    />
+  </li>
+</ul>
+`;
