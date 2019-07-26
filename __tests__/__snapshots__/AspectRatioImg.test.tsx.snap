@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[snapshot] AspectRatioImg AspectRatioImg 1`] = `
+<div
+  className="AspectRatioFence_wrap_2HH2L"
+  style={
+    Object {
+      "--ratio": "(1.7777777777777777)",
+    }
+  }
+>
+  <img
+    alt="AspectRatioImg"
+    className="AspectRatioImg_img_-WkaR"
+    src="aspect-ratio-640w.jpg"
+    srcSet="
+        aspect-ratio-320w.jpg,
+        aspect-ratio-480w.jpg 1.5x,
+        aspect-ratio-640w.jpg 2x"
+  />
+</div>
+`;
+
+exports[`[snapshot] AspectRatioImg AspectRatioImg with outerElementType 1`] = `
+<span
+  className="AspectRatioFence_wrap_2HH2L"
+  style={
+    Object {
+      "--ratio": "(1.7777777777777777)",
+    }
+  }
+>
+  <img
+    alt="AspectRatioImg"
+    className="AspectRatioImg_img_-WkaR"
+    src="aspect-ratio-640w.jpg"
+    srcSet="
+        aspect-ratio-320w.jpg,
+        aspect-ratio-480w.jpg 1.5x,
+        aspect-ratio-640w.jpg 2x"
+  />
+</span>
+`;
