@@ -7,7 +7,7 @@ import styles from './style.css'
 
 type Props = {
   /**
-   *  outter html tag neme
+   *  outter html tag name
    *  @default div
    * */
   outerElementType?: string

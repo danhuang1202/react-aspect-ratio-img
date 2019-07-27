@@ -7,13 +7,17 @@ import styles from './style.css'
 
 type Props = {
   /**
-   *  outter html tag neme
+   *  outter html tag name
    *  @default div
    * */
   outerElementType?: string
   /** Custom class name */
   customClass?: string
-  /** The aspect ratio of an image describes the proportional relationship between width and height. */
+  /**
+   * The aspect ratio of an image describes the proportional
+   * relationship between width and height.
+   *  @default 1
+   **/
   ratio: number
   /** The src attribute of <img /> tag */
   src: string
@@ -25,7 +29,7 @@ type Props = {
 
 const AspectRatioImg: FunctionComponent<Props> = ({
   outerElementType = 'div',
-  ratio,
+  ratio = 1,
   src,
   imgAttributes,
   customClass,

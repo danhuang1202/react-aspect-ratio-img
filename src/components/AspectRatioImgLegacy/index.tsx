@@ -7,12 +7,12 @@ import styles from './style.css'
 
 type Props = {
   /**
-   *  outter html tag neme
+   *  outter html tag name
    *  @default div
    * */
   outerElementType?: string
   /**
-   *  inner html tag neme
+   *  inner html tag name
    *  @default div
    * */
   innerElementType?: string
@@ -28,10 +28,10 @@ type Props = {
   children?: ReactNode
 }
 
-const AspectRatioFenceImg: FunctionComponent<Props> = ({
+const AspectRatioImgLegacy: FunctionComponent<Props> = ({
   outerElementType = 'div',
   innerElementType = 'div',
-  ratio,
+  ratio = 1,
   src,
   imgAttributes,
   customClass,
@@ -50,4 +50,4 @@ const AspectRatioFenceImg: FunctionComponent<Props> = ({
   )
 }
 
-export default AspectRatioFenceImg
+export default AspectRatioImgLegacy
