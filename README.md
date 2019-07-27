@@ -12,21 +12,48 @@ npm i react-aspect-ratio-img
 ```
 
 ## Components
-- AspectRatioImg
+- AspectRatioImg (`no IE support`)
 
-  aspect ratio placeholder with `<img>`, `no IE support`
+  Use [AspectRatioFence](https://www.npmjs.com/package/react-aspect-ratio-fence) as wrap element to set the aspect ratio and pass `<img />` element as `children` props into it.
+
+  | props | type | required | default | description |
+  | --- | --- | --- | --- | --- |
+  | outerElementType | string | false | div | html tag name of the wrap component |
+  | ratio	| number | true |	1	| The aspect ratio of an image describes the proportional relationship between width and height |
+  | customClass	| boolean |	false | - | Custom class name of the wrap component |
+  | src	| string |	true | - | The URL of an image |
+  | imgAttributes | object | false | - | The [attributes](https://www.w3schools.com/tags/tag_img.asp) of `<img />` tag |
+  | children | ReactNode | false | - | Custom children node which as silbing of `<img />` tag |
 
 - AspectRatioImgLegacy
 
-  aspect ratio placeholder with `<img>`
+  Use [AspectRatioFenceLegacy](https://www.npmjs.com/package/react-aspect-ratio-fence) as wrap element to set the aspect ratio and pass `<img />` element as `children` props into it.
+
+  | props | type | required | default | description |
+  | --- | --- | --- | --- | --- |
+  | outerElementType | string | false | div | html tag name of the outer component |
+  | innerElementType | string | false | div | html tag name of the inner component |
+  | ratio	| number | true |	1	| The aspect ratio of an image describes the proportional relationship between width and height |
+  | customClass	| boolean |	false | - | Custom class name of the wrap component |
+  | src	| string |	true | - | The URL of an image |
+  | imgAttributes | object | false | - | The [attributes](https://www.w3schools.com/tags/tag_img.asp) of `<img />` tag |
+  | children | ReactNode | false | - | Custom children node which as silbing of `<img />` tag |
 
 - SquareImg
 
-  square placeholder with `<img>`
+  Use [SquareFence](https://www.npmjs.com/package/react-aspect-ratio-fence) as wrap element and pass `<img />` element as `children` props into it.
+
+  | props | type | required | default | description |
+  | --- | --- | --- | --- | --- |
+  | outerElementType | string | false | div | html tag name of the wrap component |
+  | customClass	| boolean |	false | - | Custom class name of the wrap component |
+  | src	| string |	true | - | The URL of an image |
+  | imgAttributes | object | false | - | The [attributes](https://www.w3schools.com/tags/tag_img.asp) of `<img />` tag |
+  | children | ReactNode | false | - | Custom children node which as silbing of `<img />` tag |
 
 ## Way to Ride
 - Common jS
-```
+```js
 // import from package entry point
 const uc = require('react-aspect-ratio-img')
 require('react-aspect-ratio-img/css/style.css')
@@ -34,7 +61,7 @@ require('react-aspect-ratio-img/css/style.css')
   <uc.AspectRatioImg {...props} />
   <uc.SquareImg {...props} />
 ```
-```
+```js
 // only import specific component
 const AspectRatioImg = require('react-aspect-ratio-img/lib/components/AspectRatioImg')
 require('react-aspect-ratio-img/css/components/AspectRatioImg/style.css')
@@ -43,7 +70,7 @@ require('react-aspect-ratio-img/css/components/AspectRatioImg/style.css')
 ```
 
 - ESM
-```
+```js
 // import from package entry point
 import { AspectRatioImg, SquareImg } from 'react-aspect-ratio-img'
 import 'react-aspect-ratio-img/css/style.css'
@@ -51,7 +78,7 @@ import 'react-aspect-ratio-img/css/style.css'
   <AspectRatioImg {...props} />
   <SquareImg {...props} />
 ```
-```
+```js
 // only import specific component
 import AspectRatioImg from 'react-aspect-ratio-img/es/components/AspectRatioImg'
 import 'react-aspect-ratio-img/css/components/AspectRatio/style.css'
