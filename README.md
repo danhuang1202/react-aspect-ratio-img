@@ -20,7 +20,7 @@ npm i react-aspect-ratio-img
   | --- | --- | --- | --- | --- |
   | outerElementType | string | false | div | html tag name of the wrap component |
   | ratio	| number | true |	1	| The aspect ratio of an image describes the proportional relationship between width and height |
-  | customClass	| boolean |	false | - | Custom class name of the wrap component |
+  | customClass	| string |	false | - | Custom class name of the wrap component |
   | src	| string |	true | - | The URL of an image |
   | imgAttributes | object | false | - | The [attributes](https://www.w3schools.com/tags/tag_img.asp) of `<img />` tag |
   | children | ReactNode | false | - | Custom children node which as silbing of `<img />` tag |
@@ -34,7 +34,7 @@ npm i react-aspect-ratio-img
   | outerElementType | string | false | div | html tag name of the outer component |
   | innerElementType | string | false | div | html tag name of the inner component |
   | ratio	| number | true |	1	| The aspect ratio of an image describes the proportional relationship between width and height |
-  | customClass	| boolean |	false | - | Custom class name of the wrap component |
+  | customClass	| string |	false | - | Custom class name of the wrap component |
   | src	| string |	true | - | The URL of an image |
   | imgAttributes | object | false | - | The [attributes](https://www.w3schools.com/tags/tag_img.asp) of `<img />` tag |
   | children | ReactNode | false | - | Custom children node which as silbing of `<img />` tag |
