@@ -48,7 +48,7 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.0.0",
-    "react-aspect-ratio-fence": "^1.8.0",
+    "react-aspect-ratio-fence": "^1.8.1",
     "react-dom": "^16.0.0"
   },
   "peerDependencies": {
