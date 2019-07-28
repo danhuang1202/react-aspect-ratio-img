@@ -1,6 +1,6 @@
 {
   "name": "react-aspect-ratio-img",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Set Custom Aspect Ratio Image to the Wrap Element(fence)",
   "main": "lib/index.js",
   "module": "es/index.js",

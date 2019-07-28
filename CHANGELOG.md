@@ -1,3 +1,7 @@
+## <small>1.1.2 (2019-07-28)</small>
+
+* fix: upgrade react-aspect-ratio-fence ([9b129b5](https://github.com/danhuang1202/react-aspect-ratio-img/commit/9b129b5))
+
 ## <small>1.1.1 (2019-07-28)</small>
 
 * fix: should not hash package's classname ([0569519](https://github.com/danhuang1202/react-aspect-ratio-img/commit/0569519))
