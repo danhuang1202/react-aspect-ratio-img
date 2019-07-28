@@ -9,9 +9,13 @@ import pkg from '../package.json'
 
 const fs = require('fs')
 const path = require('path')
+const genericNames = require('generic-names')
 const constant = require('./constant')
 const extensions = ['.ts', '.tsx']
 const exclude = 'node_modules/**'
+const generate = genericNames(constant.CSS_MODULE_LOCAL_IDENT_NAME, {
+  context: process.cwd()
+})
 
 const entries = [
   {
@@ -67,7 +71,12 @@ const options = entries.map(entry => {
       postcss({
         extract: get(plugins, 'postcss.extract', true),
         modules: {
-          generateScopedName: constant.CSS_MODULE_LOCAL_IDENT_NAME
+          generateScopedName: function(name, filename) {
+            if (filename.includes('node_modules')) {
+              return name
+            }
+            return generate(name, filename)
+          }
         }
       }),
       commonjs(),
