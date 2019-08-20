@@ -17,7 +17,7 @@ storiesOf('Components', module)
   .add('AspectRatioImg', () => (
     <AspectRatioImg
       ratio={number('ratio', 16 / 9)}
-      customClass={text('customClass', style.wrap)}
+      className={text('className', style.wrap)}
       outerElementType={text('outerElementType', 'span')}
       src={text('src', 'https://via.placeholder.com/16x9')}
       imgAttributes={object('imgAttributes', {

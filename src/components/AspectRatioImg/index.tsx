@@ -12,7 +12,7 @@ type Props = {
    * */
   outerElementType?: string
   /** Custom class name */
-  customClass?: string
+  className?: string
   /**
    * The aspect ratio of an image describes the proportional
    * relationship between width and height.
@@ -32,13 +32,13 @@ const AspectRatioImg: FunctionComponent<Props> = ({
   ratio = 1,
   src,
   imgAttributes,
-  customClass,
+  className,
   children
 }) => {
   return (
     <AspectRatioFence
       elementType={outerElementType}
-      customClass={customClass}
+      className={className}
       ratio={ratio}
     >
       <img alt="" {...imgAttributes} src={src} className={styles.img} />

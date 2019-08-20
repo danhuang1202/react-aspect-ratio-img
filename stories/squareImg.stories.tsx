@@ -25,6 +25,6 @@ storiesOf('Components', module)
           https://via.placeholder.com/768x768 1x
         `
       })}
-      customClass={text('customClass', style.wrap)}
+      className={text('className', style.wrap)}
     />
   ))

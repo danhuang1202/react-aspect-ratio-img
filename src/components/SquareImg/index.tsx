@@ -12,7 +12,7 @@ type Props = {
    * */
   outerElementType?: string
   /** Custom class name */
-  customClass?: string
+  className?: string
   /** The src attribute of <img /> tag */
   src: string
   /** Attributes of <img /> tag */
@@ -23,13 +23,13 @@ type Props = {
 
 const SquareImg: FunctionComponent<Props> = ({
   outerElementType = 'div',
-  customClass,
+  className,
   src,
   imgAttributes,
   children
 }) => {
   return (
-    <SquareFence elementType={outerElementType} customClass={customClass}>
+    <SquareFence elementType={outerElementType} className={className}>
       <img alt="" {...imgAttributes} src={src} className={styles.img} />
       {children}
     </SquareFence>
