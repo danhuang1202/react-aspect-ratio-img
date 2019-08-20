@@ -17,7 +17,7 @@ type Props = {
    * */
   innerElementType?: string
   /** Custom class name */
-  customClass?: string
+  className?: string
   /** The aspect ratio of an image describes the proportional relationship between width and height. */
   ratio: number
   /** The src attribute of <img /> tag */
@@ -34,14 +34,14 @@ const AspectRatioImgLegacy: FunctionComponent<Props> = ({
   ratio = 1,
   src,
   imgAttributes,
-  customClass,
+  className,
   children
 }) => {
   return (
     <AspectRatioFenceLegacy
       outerElementType={outerElementType}
       innerElementType={innerElementType}
-      customClass={customClass}
+      className={className}
       ratio={ratio}
     >
       <img alt="" {...imgAttributes} src={src} className={styles.img} />

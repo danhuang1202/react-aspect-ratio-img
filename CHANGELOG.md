@@ -5,7 +5,7 @@
 ## <small>1.1.1 (2019-07-28)</small>
 
 * fix: should not hash package's classname ([0569519](https://github.com/danhuang1202/react-aspect-ratio-img/commit/0569519))
-* docs: update document of customClass props type ([b37aa24](https://github.com/danhuang1202/react-aspect-ratio-img/commit/b37aa24))
+* docs: update document of className props type ([b37aa24](https://github.com/danhuang1202/react-aspect-ratio-img/commit/b37aa24))
 
 ## 1.1.0 (2019-07-27)
 
