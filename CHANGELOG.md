@@ -1,3 +1,15 @@
+## 2.0.0 (2019-08-20)
+
+* Merge pull request #2 from danhuang1202/styled-component ([27bdfc5](https://github.com/danhuang1202/react-aspect-ratio-img/commit/27bdfc5)), closes [#2](https://github.com/danhuang1202/react-aspect-ratio-img/issues/2)
+* refactor: support styled component ([d14ca0c](https://github.com/danhuang1202/react-aspect-ratio-img/commit/d14ca0c))
+* chore: upgrade packages ([cb5a275](https://github.com/danhuang1202/react-aspect-ratio-img/commit/cb5a275))
+
+
+### BREAKING CHANGE
+
+* rename customClass props to className
+* rename customClass props to className
+
 ## <small>1.1.2 (2019-07-28)</small>
 
 * fix: upgrade react-aspect-ratio-fence ([9b129b5](https://github.com/danhuang1202/react-aspect-ratio-img/commit/9b129b5))
