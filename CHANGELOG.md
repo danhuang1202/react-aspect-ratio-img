@@ -1,3 +1,8 @@
+## <small>2.0.1 (2019-09-11)</small>
+
+* fix: remvoe react-docgen-typescript-loader from storybook webpack ([81cf567](https://github.com/danhuang1202/react-aspect-ratio-img/commit/81cf567))
+* chore: remove react-docgen-typescript-loader ([29fbf5d](https://github.com/danhuang1202/react-aspect-ratio-img/commit/29fbf5d))
+
 ## 2.0.0 (2019-08-20)
 
 * Merge pull request #2 from danhuang1202/styled-component ([27bdfc5](https://github.com/danhuang1202/react-aspect-ratio-img/commit/27bdfc5)), closes [#2](https://github.com/danhuang1202/react-aspect-ratio-img/issues/2)
