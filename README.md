@@ -3,6 +3,7 @@
 [![codecov](https://codecov.io/gh/danhuang1202/react-aspect-ratio-img/branch/master/graph/badge.svg)](https://codecov.io/gh/danhuang1202/react-aspect-ratio-img)
 [![NPM version](https://img.shields.io/npm/v/react-aspect-ratio-img.svg)](https://www.npmjs.com/package/react-aspect-ratio-img)
 
+Render HTML img tag with specific aspect ratio with React.
 for more information, please see: <a href="https://danhuang1202.github.io/react-aspect-ratio-img/">Document</a>
 
 
