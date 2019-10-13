@@ -1,3 +1,10 @@
+## <small>2.0.2 (2019-10-13)</small>
+
+* chore: disable @typescript-eslint/ban-ts-ignore ([ee73551](https://github.com/danhuang1202/react-aspect-ratio-img/commit/ee73551))
+* fix: update @typescript-eslint/eslint-plugin and eslint to fix Security Alerts from github ([db2667a](https://github.com/danhuang1202/react-aspect-ratio-img/commit/db2667a))
+* fix: update npm registry ([6c6ef4a](https://github.com/danhuang1202/react-aspect-ratio-img/commit/6c6ef4a))
+* docs: update ReadMe ([592a138](https://github.com/danhuang1202/react-aspect-ratio-img/commit/592a138))
+
 ## <small>2.0.1 (2019-09-11)</small>
 
 * fix: remvoe react-docgen-typescript-loader from storybook webpack ([81cf567](https://github.com/danhuang1202/react-aspect-ratio-img/commit/81cf567))
