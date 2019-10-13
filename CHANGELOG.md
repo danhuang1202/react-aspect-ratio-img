@@ -1,3 +1,7 @@
+## <small>2.0.3 (2019-10-13)</small>
+
+* fix: remove storybook_addon-info base on https://github.com/storybookjs/storybook/issues/8160 ([ee50893](https://github.com/danhuang1202/react-aspect-ratio-img/commit/ee50893))
+
 ## <small>2.0.2 (2019-10-13)</small>
 
 * chore: disable @typescript-eslint/ban-ts-ignore ([ee73551](https://github.com/danhuang1202/react-aspect-ratio-img/commit/ee73551))
