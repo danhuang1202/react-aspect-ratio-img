@@ -47,9 +47,9 @@
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.6",
-    "react": "^16.9.0",
+    "react": "^16.0.0",
     "react-aspect-ratio-fence": "^1.8.4",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.0.0"
   },
   "peerDependencies": {
     "react": "^16.0.0",
