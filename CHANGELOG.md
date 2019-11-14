@@ -1,3 +1,7 @@
+## 2.1.0 (2019-11-14)
+
+* feat: update react dependency ([6dc28d6](https://github.com/danhuang1202/react-aspect-ratio-img/commit/6dc28d6))
+
 ## <small>2.0.3 (2019-10-13)</small>
 
 * fix: remove storybook_addon-info base on https://github.com/storybookjs/storybook/issues/8160 ([ee50893](https://github.com/danhuang1202/react-aspect-ratio-img/commit/ee50893))
