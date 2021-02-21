@@ -46,14 +46,11 @@
   "author": "danhuang",
   "license": "ISC",
   "dependencies": {
-    "classnames": "^2.2.6",
-    "react": "^16.0.0",
-    "react-aspect-ratio-fence": "^1.8.4",
-    "react-dom": "^16.0.0"
+    "react-aspect-ratio-fence": "^1.8.5"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.0.0 || ^17.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0",
     "classnames": "^2.0.0"
   },
   "devDependencies": {
@@ -62,7 +59,7 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
     "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/git": "^7.0.16",
+    "@semantic-release/git": "^7.0.18",
     "@storybook/addon-info": "^5.1.11",
     "@storybook/addon-knobs": "^5.1.11",
     "@storybook/addon-viewport": "^5.1.11",
@@ -92,6 +89,8 @@
     "lint-staged": "^8.1.6",
     "lodash.get": "^4.4.2",
     "prettier": "^1.17.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-test-renderer": "^16.9.0",
     "rollup": "^1.19.4",
     "rollup-plugin-alias": "^1.5.1",
@@ -100,7 +99,7 @@
     "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^2.0.3",
-    "semantic-release": "^17.2.3",
+    "semantic-release": "^17.3.9",
     "typescript": "^3.4.4"
   },
   "config": {
