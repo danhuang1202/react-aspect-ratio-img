@@ -1,3 +1,27 @@
+## <small>2.1.1 (2021-02-21)</small>
+
+* fix: add react@17 to peer dependency ([e21b683](https://github.com/danhuang1202/react-aspect-ratio-img/commit/e21b683))
+* Merge pull request #10 from danhuang1202/dependabot/npm_and_yarn/codecov-3.7.1 ([3121df1](https://github.com/danhuang1202/react-aspect-ratio-img/commit/3121df1)), closes [#10](https://github.com/danhuang1202/react-aspect-ratio-img/issues/10)
+* Merge pull request #11 from danhuang1202/dependabot/npm_and_yarn/elliptic-6.5.3 ([4cb8c94](https://github.com/danhuang1202/react-aspect-ratio-img/commit/4cb8c94)), closes [#11](https://github.com/danhuang1202/react-aspect-ratio-img/issues/11)
+* Merge pull request #12 from danhuang1202/dependabot/npm_and_yarn/markdown-to-jsx-6.11.4 ([ca043fe](https://github.com/danhuang1202/react-aspect-ratio-img/commit/ca043fe)), closes [#12](https://github.com/danhuang1202/react-aspect-ratio-img/issues/12)
+* Merge pull request #13 from danhuang1202/dependabot/npm_and_yarn/handlebars-4.7.6 ([6ae95e3](https://github.com/danhuang1202/react-aspect-ratio-img/commit/6ae95e3)), closes [#13](https://github.com/danhuang1202/react-aspect-ratio-img/issues/13)
+* Merge pull request #15 from danhuang1202/dependabot/npm_and_yarn/semantic-release-17.2.3 ([5080355](https://github.com/danhuang1202/react-aspect-ratio-img/commit/5080355)), closes [#15](https://github.com/danhuang1202/react-aspect-ratio-img/issues/15)
+* Merge pull request #16 from danhuang1202/dependabot/npm_and_yarn/ini-1.3.7 ([b6eb9ed](https://github.com/danhuang1202/react-aspect-ratio-img/commit/b6eb9ed)), closes [#16](https://github.com/danhuang1202/react-aspect-ratio-img/issues/16)
+* Merge pull request #17 from danhuang1202/dependabot/npm_and_yarn/nested-object-assign-1.0.4 ([182aa42](https://github.com/danhuang1202/react-aspect-ratio-img/commit/182aa42)), closes [#17](https://github.com/danhuang1202/react-aspect-ratio-img/issues/17)
+* Merge pull request #6 from danhuang1202/dependabot/npm_and_yarn/acorn-5.7.4 ([ec8c306](https://github.com/danhuang1202/react-aspect-ratio-img/commit/ec8c306)), closes [#6](https://github.com/danhuang1202/react-aspect-ratio-img/issues/6)
+* Merge pull request #7 from danhuang1202/dependabot/npm_and_yarn/https-proxy-agent-2.2.4 ([b2d0ddf](https://github.com/danhuang1202/react-aspect-ratio-img/commit/b2d0ddf)), closes [#7](https://github.com/danhuang1202/react-aspect-ratio-img/issues/7)
+* Merge pull request #8 from danhuang1202/dependabot/npm_and_yarn/websocket-extensions-0.1.4 ([2ef6f33](https://github.com/danhuang1202/react-aspect-ratio-img/commit/2ef6f33)), closes [#8](https://github.com/danhuang1202/react-aspect-ratio-img/issues/8)
+* chore(deps-dev): bump codecov from 3.6.1 to 3.7.1 ([9293ceb](https://github.com/danhuang1202/react-aspect-ratio-img/commit/9293ceb))
+* chore(deps-dev): bump semantic-release from 15.13.24 to 17.2.3 ([16dd16e](https://github.com/danhuang1202/react-aspect-ratio-img/commit/16dd16e))
+* chore(deps): bump acorn from 5.7.3 to 5.7.4 ([a944d14](https://github.com/danhuang1202/react-aspect-ratio-img/commit/a944d14))
+* chore(deps): bump elliptic from 6.5.1 to 6.5.3 ([eff1d0e](https://github.com/danhuang1202/react-aspect-ratio-img/commit/eff1d0e))
+* chore(deps): bump handlebars from 4.4.3 to 4.7.6 ([f01f2ba](https://github.com/danhuang1202/react-aspect-ratio-img/commit/f01f2ba))
+* chore(deps): bump https-proxy-agent from 2.2.2 to 2.2.4 ([2e44230](https://github.com/danhuang1202/react-aspect-ratio-img/commit/2e44230))
+* chore(deps): bump ini from 1.3.5 to 1.3.7 ([e7c9a2b](https://github.com/danhuang1202/react-aspect-ratio-img/commit/e7c9a2b))
+* chore(deps): bump markdown-to-jsx from 6.10.3 to 6.11.4 ([5bc149e](https://github.com/danhuang1202/react-aspect-ratio-img/commit/5bc149e))
+* chore(deps): bump nested-object-assign from 1.0.3 to 1.0.4 ([017720c](https://github.com/danhuang1202/react-aspect-ratio-img/commit/017720c))
+* chore(deps): bump websocket-extensions from 0.1.3 to 0.1.4 ([bc5ecb2](https://github.com/danhuang1202/react-aspect-ratio-img/commit/bc5ecb2))
+
 ## 2.1.0 (2019-11-14)
 
 * feat: update react dependency ([6dc28d6](https://github.com/danhuang1202/react-aspect-ratio-img/commit/6dc28d6))
